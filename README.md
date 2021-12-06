@@ -11,9 +11,9 @@
   - tqdm
 
 - 建立词典：`sh run_en-zh.sh vocab`
-- 训练： `sh run_en-zh.sh train` (CPU)
+- 训练： `sh run_en-zh.sh train` (GPU)
 - 测试：`sh run_en-zh.sh test` (CPU)
-- 如要使用GPU，在`run_en-zh.sh`文件中将对应命令末尾添加 `--cuda=True`
+- 如要使用GPU，在`run_en-zh.sh`文件中将对应命令末尾添加 `--cuda=True`，否则，删除该选项。
 
 
 

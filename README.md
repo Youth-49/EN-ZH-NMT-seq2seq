@@ -302,6 +302,8 @@ GUI主要分为三个界面：登录界面、注册页面和翻译界面。
 
 > pyinstaller [option] Python [file]
 
+这里，在根目录下执行指令：`pyinstaller -w main.py`，在生成的dist文件夹中可看到生成的文件夹，其中可执行文件为`mian.exe`，将模型文件`model.bin`复制到dist目录下，即可双击运行`main.exe`
+
 
 
 ## 软件使用

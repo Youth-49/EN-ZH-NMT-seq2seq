@@ -16,6 +16,12 @@
 - 测试：`sh run_en-zh.sh test` (CPU)
 - 如要使用GPU，在`run_en-zh.sh`文件中将对应命令末尾添加 `--cuda=True`，否则，删除该选项。
 
+项目已开源到Github： [Youth-49/EN-ZH-NMT-seq2seq: 英译中的seq2seq+Attention+Beam search NMT模型 (github.com)](https://github.com/Youth-49/EN-ZH-NMT-seq2seq)
+
+打包生成的可执行文件通过Google drive共享：https://drive.google.com/file/d/12S42kc4Q19ArRrjMIa_ymQUP8jnRqvAr/view?usp=sharing
+
+模型文件（model.bin, model.bin.optim）通过Google drive共享：https://drive.google.com/file/d/1HqKoNlm9ElCSaCJBXIjsSKWaaFQv9YC0/view?usp=sharing
+
 
 
 # 数据集

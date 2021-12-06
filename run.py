@@ -317,7 +317,7 @@ def main():
     parser.add_argument('--dev_tgt', type=str, default='./date/dev.zh')
     parser.add_argument('--dropout', type=float, default=0.3)
     parser.add_argument('--embed_size', type=int, default=256)
-    parser.add_argument('--hidden_size', type=float, default=5.0)
+    parser.add_argument('--hidden_size', type=float, default=256)
     parser.add_argument('--log_every', type=int, default=10)
     parser.add_argument('--lr', type=float, default=0.001)
     parser.add_argument('--lr_decay', type=float, default=0.5)

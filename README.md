@@ -312,13 +312,13 @@ GUI主要分为三个界面：登录界面、注册页面和翻译界面。
 
 - 在出现软件主页面之后，输入正确的用户名、密码，点击`login`按钮进行软件登录
 
-<img src="README.assets/image-20211206003939801.png" alt="image-20211206003939801" style="zoom:60%;" />
+<img src="img.assets/image-20211206003939801.png" alt="image-20211206003939801" style="zoom:60%;" />
 
 
 
 - 登陆成功后，进入主页面，输入待翻译句子，点击`Translate`按钮进行翻译
 
-<img src="README.assets/image-20211206003902359.png" alt="image-20211206003902359" style="zoom: 33%;" />
+<img src="img.assets/image-20211206003902359.png" alt="image-20211206003902359" style="zoom: 33%;" />
 
 
 

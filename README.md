@@ -9,7 +9,8 @@
   - numpy
   - nltk
   - tqdm
-
+  - pyinstaller
+  
 - 建立词典：`sh run_en-zh.sh vocab`
 - 训练： `sh run_en-zh.sh train` (GPU)
 - 测试：`sh run_en-zh.sh test` (CPU)

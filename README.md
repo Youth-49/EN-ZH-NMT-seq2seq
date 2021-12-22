@@ -1,6 +1,6 @@
 # Description
 
-本项目是一个基于神经网络的机器翻译模型，并制作了简洁的前端界面，将模型打包成可执行文件。用户可在PC上配置相关环境并执行对于命令，对模型训练和测试，也可直接通过下面给出的Google drive链接下载并解压文件夹，在其中双击`.exe`文件，免配置环境运行。
+本项目是一个**基于神经网络的机器翻译模型**，并制作了简洁的前端界面，**将模型打包成可执行文件**。用户可在PC上配置相关环境并执行对于命令，对模型训练和测试，也可直接通过下面给出的Google drive链接下载并解压文件夹，在其中双击`.exe`文件，免配置环境运行。
 
 
 
@@ -26,7 +26,7 @@
 
 打包生成的可执行文件通过Google drive共享：https://drive.google.com/file/d/12S42kc4Q19ArRrjMIa_ymQUP8jnRqvAr/view?usp=sharing
 
-模型文件（model.bin, model.bin.optim）通过Google drive共享：https://drive.google.com/file/d/1HqKoNlm9ElCSaCJBXIjsSKWaaFQv9YC0/view?usp=sharing
+模型文件（`model.bin`,` model.bin.optim`）通过Google drive共享：https://drive.google.com/file/d/1HqKoNlm9ElCSaCJBXIjsSKWaaFQv9YC0/view?usp=sharing
 
 
 

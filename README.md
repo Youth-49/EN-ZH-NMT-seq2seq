@@ -24,9 +24,9 @@
 
 项目已开源到Github： [Youth-49/EN-ZH-NMT-seq2seq: 英译中的seq2seq+Attention+Beam search NMT模型 (github.com)](https://github.com/Youth-49/EN-ZH-NMT-seq2seq)
 
-打包生成的可执行文件通过Google drive共享：https://drive.google.com/file/d/12S42kc4Q19ArRrjMIa_ymQUP8jnRqvAr/view?usp=sharing
+打包生成的可执行文件通过 Google Drive 共享：https://drive.google.com/file/d/12S42kc4Q19ArRrjMIa_ymQUP8jnRqvAr/view?usp=sharing
 
-模型文件（`model.bin`,` model.bin.optim`）通过Google drive共享：https://drive.google.com/file/d/1HqKoNlm9ElCSaCJBXIjsSKWaaFQv9YC0/view?usp=sharing
+模型文件（`model.bin`,` model.bin.optim`）通过Google Drive共享：https://drive.google.com/file/d/1HqKoNlm9ElCSaCJBXIjsSKWaaFQv9YC0/view?usp=sharing
 
 
 
@@ -115,7 +115,7 @@ $$
 
 #### 注意力层
 
-在第t个时间步中，用$h_t^{dec}$计算其相对于$h_1^{enc},...,h_m^{enc}$的注意力：
+在第 t 个时间步中，用$h_t^{dec}$计算其相对于$h_1^{enc},...,h_m^{enc}$的注意力：
 $$
 e_{t,i}=(h^{dec}_t)^TW_{attProj}h_i^{enc}
 ,\quad1\leq i \leq m \\
@@ -223,7 +223,7 @@ g\leftarrow c\centerdot g/||g||
 $$
 此处$c$指参数`clip_grad`（本实验中`clip_grad` = 5.0），$g$指梯度，$||g||$指梯度的2-范数。
 
-Gradient Clipping确保了梯度矢量的最大范数。有助于梯度下降保持合理。
+Gradient Clipping 确保了梯度矢量的最大范数。有助于梯度下降保持合理。
 
 
 
@@ -247,7 +247,7 @@ Gradient Clipping确保了梯度矢量的最大范数。有助于梯度下降保
 
 # 模型部署
 
-我们使用`tkinter`作为主要的GUI界面设计工具，使用`pyinstaller`工具进行打包。
+我们使用`tkinter`作为主要的 GUI 界面设计工具，使用`pyinstaller`工具进行打包。
 
 
 
@@ -257,7 +257,7 @@ Gradient Clipping确保了梯度矢量的最大范数。有助于梯度下降保
 
 #### 工具介绍
 
-`tkinter` 是使用 python 进行窗口视窗设计的模块。`tkinter`模块("Tk 接口")是Python的标准Tk GUI工具包的接口。作为 python 特定的GUI界面，是一个图像的窗口，`tkinter`是python 自带的、可以编辑的GUI界面。
+`tkinter` 是使用 python 进行窗口视窗设计的模块。`tkinter`模块("Tk 接口")是 python 的标准 Tk GUI 工具包的接口。作为 python 特定的 GUI 界面，是一个图像的窗口，`tkinter`是 python 自带的、可以编辑的 GUI 界面。
 
 
 
@@ -305,7 +305,7 @@ GUI主要分为三个界面：登录界面、注册页面和翻译界面。
 
 > pyinstaller [option] [file]
 
-这里，在根目录下执行指令：`pyinstaller -w main.py`，在生成的dist文件夹中可看到生成的文件夹，其中可执行文件为`mian.exe`，将模型文件`model.bin`复制到dist目录下，即可双击运行`main.exe`
+这里，在根目录下执行指令：`pyinstaller -w main.py`，在生成的dist文件夹中可看到生成的文件夹，其中可执行文件为`main.exe`，将模型文件`model.bin`复制到dist目录下，即可双击运行`main.exe`
 
 
 

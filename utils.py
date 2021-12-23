@@ -28,7 +28,6 @@ def pad_sents(sents, pad_token):
     """
     sents_padded = []
 
-    ### YOUR CODE HERE (~6 Lines)
     max_L = np.max([len(sent) for sent in sents])
     B = len(sents)
     for sent in sents:
@@ -38,7 +37,6 @@ def pad_sents(sents, pad_token):
             sent_padded.append(pad_token)
         sents_padded.append(sent_padded)
 
-    ### END YOUR CODE
 
     return sents_padded
 
